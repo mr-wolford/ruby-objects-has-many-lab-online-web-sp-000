@@ -20,6 +20,6 @@ class Post
     self.author if author
   end
 
-  
+
 
 end
