@@ -9,9 +9,10 @@ class Post
   end
 
   def save
-    @all << self
+    @@all << self
   end
 
-  def all
+  def self.all
+    @@all? { |e|  }
 
 end
